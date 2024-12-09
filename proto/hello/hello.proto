@@ -10,7 +10,6 @@ option go_package =
 message HelloRequest { 
   string name = 1;
   uint32 age = 16;
-  uint32 tree = 17;
 }
 
 message HelloResponse { 
