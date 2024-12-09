@@ -7,7 +7,7 @@ import "proto/transaction/cart.proto";
 // replace this with your own github username and repo
 // github.com/<username>/<repo>/protogen/go/...
 option go_package = 
-"github.com/gc2321/my-grpc-proto/protogen/go/hello";
+"github.com/gc2321/my-grpc-proto/protogen/go/payment";
 
 message PaymentRequest {
   transaction.Cart cart = 1;
