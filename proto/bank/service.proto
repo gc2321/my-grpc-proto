@@ -13,15 +13,15 @@ service BankService {
   rpc GetCurrentBalance(CurrentBalanceRequest)
   returns (CurrentBalanceResponse) {}
 
-  rpc FetchExchangeRates(ExchangeRateRequest) 
-  returns (stream ExchangeRateResponse) {}
+  // rpc FetchExchangeRates(ExchangeRateRequest) 
+  // returns (stream ExchangeRateResponse) {}
 
-  rpc SummarizeTransactions(stream Transaction)
-  returns (TransactionSummary) {}
+  // rpc SummarizeTransactions(stream Transaction)
+  // returns (TransactionSummary) {}
 
-  rpc TransferMultiple(stream TransferRequest)
-  returns (stream TransferResponse) {}
+  // rpc TransferMultiple(stream TransferRequest)
+  // returns (stream TransferResponse) {}
 
-  rpc CreateAccount(CreateAccountRequest)
-  returns (CreateAccountResponse) {}
+  // rpc CreateAccount(CreateAccountRequest)
+  // returns (CreateAccountResponse) {}
 }
